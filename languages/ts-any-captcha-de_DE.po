@@ -1,15 +1,15 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: AnyCaptcha\n"
-"POT-Creation-Date: 2022-12-21 21:36+0000\n"
-"PO-Revision-Date: 2022-12-21 21:35+0000\n"
+"POT-Creation-Date: 2022-12-21 21:42+0000\n"
+"PO-Revision-Date: 2022-12-21 21:46+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.1.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
@@ -21,60 +21,60 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
 
-#: anycaptcha.php:80
+#: anycaptcha.php:79
 msgid "Settings"
-msgstr ""
+msgstr "Einstellungen"
 
-#: anycaptcha.php:81
+#: anycaptcha.php:80
 msgid "About Author"
-msgstr ""
+msgstr "Über den Autor"
 
 #. Plugin Name of the plugin/theme
 #: includes/backend.php:6 includes/backend.php:7
 msgid "AnyCaptcha"
-msgstr ""
+msgstr "AnyCaptcha"
 
 #: includes/backend.php:21
 msgid "Google reCaptcha Settings"
-msgstr ""
+msgstr "Google reCaptcha Einstellungen"
 
 #: includes/backend.php:28
 msgid "Turn on Google reCaptcha"
-msgstr ""
+msgstr "Aktivieren Sie Google reCaptcha"
 
 #: includes/backend.php:39
 msgid "Site Key"
-msgstr ""
+msgstr "Websiteschlüssel"
 
 #: includes/backend.php:49
 msgid "Secret Key"
-msgstr ""
+msgstr "Geheimer Schlüssel"
 
 #: includes/backend.php:62
 msgid "mathCaptcha Settings"
-msgstr ""
+msgstr "mathCaptcha Einstellungen"
 
 #: includes/backend.php:69
 msgid "Turn on mathCaptcha"
-msgstr ""
+msgstr "Aktivieren von mathCaptcha"
 
 #: includes/backend.php:82
 msgid "imageCaptcha Settings"
-msgstr ""
+msgstr "imageCaptcha-Einstellungen"
 
 #: includes/backend.php:89
 msgid "Turn on imageCaptcha"
-msgstr ""
+msgstr "Aktivieren von imageCaptcha"
 
 #: includes/backend.php:138
 msgid "Settings Saved"
-msgstr ""
+msgstr "Einstellungen Gespeichert"
 
 #: includes/frontend.php:48 includes/frontend.php:276 includes/frontend.php:437
 #: includes/frontend.php:489 includes/frontend.php:584
 #: includes/frontend.php:779
 msgid "Solve the equation: "
-msgstr ""
+msgstr "Lösen Sie die Gleichung: "
 
 #: includes/frontend.php:64 includes/frontend.php:287 includes/frontend.php:453
 #: includes/frontend.php:505 includes/frontend.php:800
@@ -82,18 +82,19 @@ msgstr ""
 #, php-format
 msgid "Prove you're human by choosing the %s icon: "
 msgstr ""
+"Beweisen Sie, dass Sie ein Mensch sind, indem Sie das Symbol %s wählen: "
 
 #: includes/frontend.php:93 includes/frontend.php:98
 msgid "<strong>ERROR</strong>: Solve Google reCaptcha correctly."
-msgstr ""
+msgstr "<strong>FEHLER:</strong> Lösen Sie Google reCaptcha richtig."
 
 #: includes/frontend.php:106 includes/frontend.php:111
 msgid "<strong>ERROR</strong>: Solve mathCaptcha correctly."
-msgstr ""
+msgstr "<strong>FEHLER:</strong> Lösen Sie mathCaptcha richtig."
 
 #: includes/frontend.php:120 includes/frontend.php:125
 msgid "<strong>ERROR</strong>: Solve imageCaptcha correctly."
-msgstr ""
+msgstr "<strong>FEHLER:</strong> Lösen Sie imageCaptcha richtig."
 
 #: includes/frontend.php:150 includes/frontend.php:155
 #: includes/frontend.php:213 includes/frontend.php:218
@@ -101,7 +102,7 @@ msgstr ""
 #: includes/frontend.php:532 includes/frontend.php:537
 #: includes/frontend.php:697 includes/frontend.php:702
 msgid "Solve Google reCaptcha correctly."
-msgstr ""
+msgstr "Lösen Sie Google reCaptcha richtig."
 
 #: includes/frontend.php:166 includes/frontend.php:171
 #: includes/frontend.php:229 includes/frontend.php:234
@@ -111,7 +112,7 @@ msgstr ""
 #: integrations/elementor/math_captcha_field.php:33
 #: integrations/elementor/math_captcha_field.php:41
 msgid "Solve mathCaptcha correctly."
-msgstr ""
+msgstr "Lösen Sie mathCaptcha richtig."
 
 #: includes/frontend.php:182 includes/frontend.php:187
 #: includes/frontend.php:245 includes/frontend.php:250
@@ -122,80 +123,82 @@ msgstr ""
 #: integrations/elementor/image_captcha_field.php:45
 #: integrations/elementor/image_captcha_field.php:53
 msgid "Solve imageCaptcha correctly."
-msgstr ""
+msgstr "Lösen Sie imageCaptcha richtig."
 
 #: includes/frontend.php:321 includes/frontend.php:333
 #: includes/frontend.php:351 includes/frontend.php:363
 #: includes/frontend.php:381 includes/frontend.php:393
 msgid "Comment Submission Failure."
-msgstr ""
+msgstr "Kommentar Übertragungsfehler."
 
 #: includes/frontend.php:608
 msgid "reCaptcha"
-msgstr ""
+msgstr "reCaptcha"
 
 #: includes/frontend.php:614 integrations/elementor/math_captcha_field.php:13
 msgid "mathCaptcha"
-msgstr ""
+msgstr "mathCaptcha"
 
 #: includes/frontend.php:620 integrations/elementor/image_captcha_field.php:13
 msgid "imageCaptcha"
-msgstr ""
+msgstr "imageCaptcha"
 
 #: includes/frontend.php:632
 msgid "Insert Tag"
-msgstr ""
+msgstr "Tag Einfügen"
 
 #: includes/image_captcha.php:23
 msgid "Star"
-msgstr ""
+msgstr "Stern"
 
 #: includes/image_captcha.php:24
 msgid "Heart"
-msgstr ""
+msgstr "Herz"
 
 #: includes/image_captcha.php:25
 msgid "Plane"
-msgstr ""
+msgstr "Flugzeug"
 
 #: includes/image_captcha.php:26
 msgid "House"
-msgstr ""
+msgstr "Haus"
 
 #: includes/image_captcha.php:27
 msgid "Horse"
-msgstr ""
+msgstr "Pferd"
 
 #: includes/image_captcha.php:28
 msgid "Ball"
-msgstr ""
+msgstr "Kugel"
 
 #: includes/image_captcha.php:29
 msgid "Laptop"
-msgstr ""
+msgstr "Laptop"
 
 #: includes/image_captcha.php:30
 msgid "Pen"
-msgstr ""
+msgstr "Stift"
 
 #: includes/image_captcha.php:31
 msgid "Moon"
-msgstr ""
+msgstr "Mond"
 
 #: integrations/elementor/math_captcha_field.php:22
 msgid "Only positive and negative numbers"
-msgstr ""
+msgstr "Nur positive und negative Zahlen"
 
 #. Description of the plugin/theme
 msgid ""
 "Google reCaptcha and mathCaptcha for WordPress. It also has integration with "
 "Elementor forms, Contact Form 7 and WooCommerce."
 msgstr ""
+"Google reCaptcha und mathCaptcha für WordPress. Es hat auch Integration mit "
+"Elementor-Formularen, Contact Form 7 und WooCommerce."
 
 #. Author of the plugin/theme
 msgid "tomeckiStudio"
-msgstr ""
+msgstr "tomeckiStudio"
 
 #. Author URI of the plugin/theme
 msgid "https://tomecki.studio/"
-msgstr ""
+msgstr "https://tomecki.studio/"
