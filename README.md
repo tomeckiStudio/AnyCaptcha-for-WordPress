@@ -5,3 +5,8 @@ Integrations with:
 - WooCommerce
 - Elementor PRO forms
 - Contact Form 7
+
+Languages:
+- Polish
+- English
+- German
