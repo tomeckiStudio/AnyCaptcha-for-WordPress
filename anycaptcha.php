@@ -1,7 +1,7 @@
 <?php
 /*
  * Plugin Name:       AnyCaptcha
- * Description:       Google reCaptcha and mathCaptcha for WordPress. It also has integration with Elementor forms, Contact Form 7 and WooCommerce.
+ * Description:       Google reCaptcha, mathCaptcha and imageCaptcha for WordPress. It also has integration with Elementor forms, Contact Form 7 and WooCommerce.
  * Version:           1.0.1
  * Author:            tomeckiStudio
  * Author URI:        https://tomecki.studio/
